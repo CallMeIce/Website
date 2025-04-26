@@ -7,6 +7,7 @@ import About from "./components/About"
 import Contact from "./components/Contact";
 import MeetUs from "./components/Meet";
 import Drinks from "./components/Drinks";
+import './components/style.css'
 
 function App() {
   return (
