@@ -35,3 +35,34 @@
     padding-top: 5%;
     font-size: 4rem;
 }
+
+.textMeet {
+    color: white;
+    padding-top: 10px;
+    display: flex;
+    font-family: "Playfair Display", serif;
+    font-weight: bolder;
+}
+
+.carousel {
+    display: block;
+    position: relative;
+    
+}
+
+.carouselButtons{
+    margin-top: 5rem;
+}
+
+.staffPics {
+    display: inline-flex;
+    width: 20rem;
+    height: 20rem;
+}
+
+.textCaro {
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    padding-top: 5rem;
+}
