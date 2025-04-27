@@ -15,8 +15,13 @@ export default function About() {
     // }
 
 return (<div className="container">
-     <img src={require('../images/background.jpg')} className="img-fluid d-block w-100" alt="Pub"></img>
-     <img src={require('../images/Logo.jpg')} class="d-block w-100" alt="Pub"></img>   
+    <div>
+        <div className="aboutMsg"> 
+            <p> Located near the East Village.
+            Pub is a well known pub where you can relax, unwind, and enjoy making some
+            new memories! </p>
+            </div>
+     </div>
 </div>
 
 

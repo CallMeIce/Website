@@ -2,17 +2,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     
 }
 
-.background {
-    margin: 0;
-    width: 100vw;
-    height: 100vh;
-    background-size: cover;
+.aboutMsg {
+    display: flex;
+    position: relative;
+    top: 7rem;
+    color: white;
+    font-size: 3rem;   
 }
 
-.logo {
-    position: relative;
-    top: 5rem;
-}
+    
