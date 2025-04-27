@@ -4,15 +4,7 @@ export default function MeetUs() {
 
     const styles = {
         carousel: {
-            margin: '25%',
-
-            
-            
-                  // border-left: 10px;
-                  // border-right: 10px;
-                  // border-bottom: 00px;
-                  // border-color: #fff;
-                  // border-style: solid;           
+            margin: '25%',     
         }
         
     }
@@ -79,12 +71,6 @@ return (
   </button>
 </div>
 </div>
-
-{/* <p>Abdul</p>
-<p>Isaak</p>
-<p>Matt</p>
-<p>Ryan</p>
-<p>Sebastian</p> */}
 </div>
 )
 }
