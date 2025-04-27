@@ -42,16 +42,19 @@
     display: flex;
     font-family: "Playfair Display", serif;
     font-weight: bolder;
+    justify-content: center;
 }
 
 .carousel {
-    display: block;
+    display: flex;
     position: relative;
     
 }
 
 .carouselButtons{
-    margin-top: 45rem;
+   display: flex;
+   flex-direction: row;
+   top: 5rem;
 }
 
 .staffPics {
@@ -65,4 +68,5 @@
     justify-content: center;
     font-weight: bolder;
     padding-top: 5rem;
+    font-family: "Playfair Display", serif;
 }
