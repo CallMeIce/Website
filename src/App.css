@@ -1,7 +1,23 @@
-.background {
-  background-image: url("../src/images/background.jpg");
-  position: absolute;
+.routesContainer {
+  background-image: url("./images/background.jpg");
   width: 100vw;
   height: 100vh;
+  position: fixed;
   background-size: cover;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
