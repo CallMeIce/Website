@@ -14,4 +14,13 @@
     font-size: 3rem;   
 }
 
+.menuFont {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 3%;
+    font-family: "Playfair Display", serif;
+    font-weight: bolder;
+}
     
