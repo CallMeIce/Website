@@ -24,3 +24,14 @@
     font-weight: bolder;
 }
     
+.textContact {
+    color: white;
+    display: flex;
+    text-align: center;
+    font-weight: bolder;
+    flex-direction: column;
+    position: static;
+    font-family: "Playfair Display", serif;
+    padding-top: 5%;
+    font-size: 4rem;
+}
