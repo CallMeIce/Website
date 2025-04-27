@@ -13,7 +13,8 @@ function App() {
     <div className="routesContainer">
         <Routes>
           <Route path="/menu" element={<Menu /> } />
-          <Route path="/about" element={<About /> } />
+          <Route path="/" element={<About /> } />
+          <Route path="/About" element={<About /> } />
           <Route path="/contact" element={<Contact /> } />
           <Route path="/meetus" element={<MeetUs /> } />
           <Route path="/drinks" element={<Drinks/>} />
