@@ -1,24 +1,19 @@
 import React from "react";
-import './style.css'
+import "./style.css";
 
 export default function Menu() {
-
- return (
-    <div className='menuFont'>
- <h1 className='menuFont'>Menu</h1>
- <div>
- <h2 >Pub's Dazzlin' Classics!</h2>
-<h5>The Irish Eyes</h5><h6>$9.00</h6>
-Whiskey, Bailey, & Creme De Menthe
-The Belfast Trash Can $12.00
-Gin, Light Rum, Vodka, Peach Schnapps, Bols Blue Curacao & Triple Sec
-</div>
-
-{/* $6	Mozzarella Sticks ~or~ French Fries ~or~ Onion Rings
+  return (
+    <div className="menuFont">
+      <h1>Menu</h1>
+      <div>
+        $6	Mozzarella Sticks ~or~ French Fries ~or~ Onion Rings
 $8	Potato Skins – Crispy potato halves loaded with cheese, bacon, and sour cream. 
 $10	Chicken Wings (BBQ, Buffalo, Mild, Teriyaki)
 $12	Irish Nachos – Sliced potatoes topped with melted cheese, 	jalapeños, and sour cream. 
-$22 The Four Leaf Clover (Mix of the 4 appetizers) 
+$22 The Four Leaf Clover (Mix of the 4 appetizers)
+      </div>
+
+      {/*  
 
 Chicken Quesadillas …  $14.00
 Grilled flour tortillas stuffed with seasoned chicken, melted cheese, and served with salsa and sour cream.
@@ -51,7 +46,6 @@ $8	Potato Skins – Crispy potato halves loaded with cheese, 	bacon, and sour cr
 $10	Chicken Wings (BBQ, Buffalo, Mild, Teriyaki)
 $12	Irish Nachos – Sliced potatoes topped with melted cheese, 	jalapeños, and sour cream. 
 $22 The Four Leaf Clover (Mix of the 4 appetizers) */}
-
- </div>
- )
+    </div>
+  );
 }
