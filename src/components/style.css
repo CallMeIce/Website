@@ -35,6 +35,16 @@
     font-family: "Playfair Display", serif;
     padding-top: 5%;
     font-size: 4rem;
+    text-decoration: underline;
+}
+
+.textHours {
+    color: white;
+    font-size: 2rem;
+}
+
+.textIcon {
+    color: white;
 }
 
 .textMeet {
