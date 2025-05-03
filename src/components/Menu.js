@@ -89,6 +89,49 @@ export default function Menu() {
       <div class="row">
     <div class="col-6">
 
+    <div id="carouselMenu" class="carousel slide" >
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img className="imgMenu" src={require('../images/Chicken-quesadilla.jpg')} class="d-block w-100" alt="Chicken Quesadillas"></img>
+      <figcaption  class="figure-caption text-end" className="imgCap">Chicken Quesadillas</figcaption>
+    </div>
+    <div class="carousel-item">
+      <img className="imgMenu" src={require('../images/cheese pizza.jpg')}   class="d-block w-100" alt="Personal Pizza"></img>
+      <figcaption class="figure-caption text-end" className="imgCap">Personal Pizza</figcaption>
+    </div>
+    <div class="carousel-item">
+      <img className="imgMenu" src={require('../images/guinness-beef-stew.jpg')}  class="d-block w-100" alt="The Liquid Gold Stew"></img>
+      <figcaption class="figure-caption text-end" className="imgCap">The Liquid Gold Stew</figcaption>
+    </div>
+    <div class="carousel-item">
+      <img className="imgMenu" src={require('../images/The-classic-comfort.jpg')}  class="d-block w-100" alt="The Classic Comfort"></img>
+      <figcaption class="figure-caption text-end" className="imgCap">The CLassic Comfort</figcaption>
+    </div>
+    <div class="carousel-item">
+      <img className="imgMenu" src={require('../images/The-Irish-tradition.jpg')}  class="d-block w-100" alt="The Irish Tradition"></img>
+      <figcaption class="figure-caption text-end" className="imgCap">The Irish Tradition</figcaption>
+    </div>
+    <div class="carousel-item">
+      <img className="imgMenu" src={require('../images/irish-potato-pancake.jpg')} class="d-block w-100" alt="The Potato Pancake Surprise"></img>
+      <figcaption class="figure-caption text-end" className="imgCap">The Potato Pancake Surprise</figcaption>
+    </div>
+    <div class="carousel-item">
+      <img className="imgMenu" src={require('../images/The-Lamb-King.jpg')} class="d-block w-100" alt="The Lamb King"></img>
+      <figcaption class="figure-caption text-end" className="imgCap">The Lamb King</figcaption>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselMenu" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselMenu" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+
     
 
     </div>
@@ -134,15 +177,19 @@ export default function Menu() {
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img src={require('../images/cheesecake.webp')} class="d-inline-block w-100" alt="Bailey's Cheesecake"></img>
+      <figcaption class="figure-caption text-end" className="imgCap">Bailey's Cheesecake</figcaption>
     </div>
     <div class="carousel-item">
       <img  src={require('../images/Guinness-Chocolate-Cake.jpg')}   class="d-inline-block w-100" alt="Guinness Chocolate Cake"></img>
+      <figcaption class="figure-caption text-end" className="imgCap">Guinness Chocolate Cake</figcaption>
     </div>
     <div class="carousel-item">
       <img src={require('../images/Sticky-Toffee-Pudding.jpg')}  class="d-block w-100" alt="Sticky Toffee Pudding"></img>
+      <figcaption class="figure-caption text-end" className="imgCap">Sticky Toffee Pudding</figcaption>
     </div>
     <div class="carousel-item">
       <img src={require('../images/Apple-tart.jpg')}  class="d-block w-100" alt="Apple Tart"></img>
+      <figcaption class="figure-caption text-end" className="imgCap">Apple Tart</figcaption>
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDessert" data-bs-slide="prev">
