@@ -5,8 +5,10 @@ export default function Menu() {
   return (
     <div className="container">
       <br></br>
-      <h1 className="menuFont">Menu</h1>
-      <h2 className="menuFont"><br></br>Appetizers</h2>
+      <h1 class="list-group-item list-group-item-success rounded"> <strong>Menu</strong></h1>
+      <br></br>
+      <h2 class="list-group-item list-group-item-success rounded"><strong>Appetizers</strong></h2>
+      
       <br></br>
       <div class="row">
     <div class="col-6" >
@@ -50,7 +52,7 @@ export default function Menu() {
 
       </div>
     <div class="col-6">
-              <ul class="list-group list-group-flush d-inline-block">
+              <ul class="list-group list-group-flush d-inline-block rounded">
         <li class="list-group-item list-group-item-success"><strong> <span className="textApp">Mozzarella Sticks ~or~ Onion Rings ... $6</span></strong>
         <br></br><p>Breaded mozzarella cheese sticks fried to a golden crunch ~or~ Thick-cut onions 
           dipped in a seasoned batter and fried until golden and crunchy, both served with warm marinara for the perfect taste</p>
@@ -75,33 +77,74 @@ export default function Menu() {
       <div>
           <br></br>
           <br></br>
-      <h2><br></br>Pub's Dazzlin' Classics!</h2>
+      <h2 class="list-group-item list-group-item-success d-inline-block rounded">Pub's Dazzlin' Classics!</h2>
       <br></br>
       <div class="row">
-    <div class="col-4">col-8</div>
-    <div class="col-8">
-      <ul>
-      <li>$14.00 - Chicken Quesadillas
-      Grilled flour tortillas stuffed with seasoned chicken, melted cheese, and served with salsa and sour cream.</li>
-      <li>$12.50 -Personal Pizza
-      A perfectly portioned pizza with your choice of toppings, baked to golden, cheesy perfection.</li>
-      <li>$16.00 - The Liquid Gold Stew
-      Slow-cooked beef with root vegetables, all simmered in a rich Guinness broth for deep, comforting flavor.</li>
-      <li>$14.00 - The Classic Comfort
-      Juicy Irish sausages nestled on a bed of buttery mashed potatoes, drenched in savory onion gravy.</li>
-      <li>$18.00 - The Irish Tradition
-      Tender, salty corned beef served with boiled cabbage, hearty potatoes, and sweet carrots.</li>
-      <li>$15.00 - The Potato Pancake Surprise
-      Traditional Irish potato pancake stuffed with your choice of chicken, crispy bacon, or smoked salmon.</li>
-      <li>$22.00 - The Lamb King
-      Grilled lamb chops full of flavor, paired with garlic mashed potatoes and seasonal vegetables.</li>
-      <li>$18.00 - The Coastal Cream
-      Fresh mussels simmered in a creamy garlic and white wine sauce, served with warm, crusty bread.</li>
-      </ul>
-        </div>
-  </div>
+    <div class="col-6">col-8</div>
 
+
+
+    <div class="col-6">
+
+
+    <ul class="list-group list-group-flush d-inline-block rounded">
+        <li class="list-group-item list-group-item-success"><strong> <span className="textApp">Chicken Quesadillas … $14</span></strong>
+        <br></br><p>Grilled flour tortillas stuffed with seasoned chicken, melted cheese, and served with salsa and sour cream</p>
+        </li>
+        <li class="list-group-item list-group-item-success"><strong> <span className="textApp">Personal Pizza … $12.50</span></strong>
+        <br></br><p>A perfectly portioned pizza with your choice of toppings, baked to golden, cheesy perfection</p></li>
+        <li class="list-group-item list-group-item-success"><strong> <span className="textApp">The Liquid Gold Stew … $16</span></strong>
+        <br></br><p>Slow-cooked beef with root vegetables, all simmered in a rich Guinness broth for deep, comforting flavor</p>
+        </li>
+        <li class="list-group-item list-group-item-success"><strong> <span className="textApp">The Classic Comfort ... $14</span></strong>
+        <br></br><p>Juicy Irish sausages nestled on a bed of buttery mashed potatoes, drenched in savory onion gravy</p>
+        </li>
+        <li class="list-group-item list-group-item-success"><strong> <span className="textApp">The Irish Tradition ... $18</span></strong>
+        <br></br><p>Tender, salty corned beef served with boiled cabbage, hearty potatoes, and sweet carrots</p>
+        </li>
+        <li class="list-group-item list-group-item-success"><strong> <span className="textApp">The Potato Pancake Surprise … $15</span></strong>
+        <br></br><p>Traditional Irish potato pancake stuffed with your choice of chicken, crispy bacon, or smoked salmon</p>
+        </li>
+        <li class="list-group-item list-group-item-success"><strong> <span className="textApp">The Lamb King ... $22</span></strong>
+        <br></br><p>Grilled lamb chops full of flavor, paired with garlic mashed potatoes and seasonal vegetables</p>
+        </li>
+      </ul>
+        </div>  
+  </div>
+<br></br>
+        <br></br>
+        <br></br>
+  <h2 class="list-group-item list-group-item-success rounded d-inline-block"><strong>Desserts</strong></h2>
+  <br></br>
+      <div class="row">
+    <div class="col-6">col-8</div>
+
+
+
+    <div class="col-6">
+
+
+    <ul class="list-group list-group-flush d-inline-block rounded">
+        <li class="list-group-item list-group-item-success"><strong> <span className="textApp">Baileys Cheesecake … $8</span></strong>
+        <br></br><p>Creamy cheesecake infused with Baileys Irish Cream</p>
+        </li>
+        <li class="list-group-item list-group-item-success"><strong> <span className="textApp">Guinness Chocolate Cake … $9</span></strong>
+        <br></br><p>Rich, moist chocolate cake made with Guinness stout</p></li>
+        <li class="list-group-item list-group-item-success"><strong> <span className="textApp">The Liquid Gold Stew … $16</span></strong>
+        <br></br><p>Slow-cooked beef with root vegetables, all simmered in a rich Guinness broth for deep, comforting flavor</p>
+        </li>
+        <li class="list-group-item list-group-item-success"><strong> <span className="textApp">Sticky Toffee Pudding … $9</span></strong>
+        <br></br><p>Warm sponge cake drenched in toffee sauce, served with cream</p>
+        </li>
+        <li class="list-group-item list-group-item-success"><strong> <span className="textApp">Irish Apple Tart … $7</span></strong>
+        <br></br><p>Flaky pastry filled with cinnamon-spiced apples, served with vanilla ice cream</p>
+        </li>
+      </ul>
+        </div>  
+  </div>
       </div>
+      <br></br>
+      <br></br>
     </div>
   );
 }
