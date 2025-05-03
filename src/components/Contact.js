@@ -65,16 +65,17 @@ export default function Contact() {
       <br></br>
       <br></br>
       <h1 className="textContact" class="list-group-item list-group-item-success rounded d-inline-block"><span className="textHeaders">Hours of Operation</span></h1>
-      <div className="textHours">
+      <div>
+        <br></br>
         <br></br>
         <ul class="list-group">
-  <li class="list-group-item list-group-item-success rounded-top" >Sun   10:00 AM - 1:00 AM</li>
-  <li class="list-group-item list-group-item-success" >Mon  11:00 AM - 2:00 AM</li>
-  <li class="list-group-item list-group-item-success">Tues  11:00 AM - 2:00 AM</li>
-  <li class="list-group-item list-group-item-success">Wed  11:00 AM - 2:00 AM</li>
-  <li class="list-group-item list-group-item-success">Thu   11:00 AM - 2:00 AM</li>
-  <li class="list-group-item list-group-item-success">Fri     11:00 AM - 4:00 AM</li>
-  <li class="list-group-item list-group-item-success rounded-bottom">Sat    10:00 AM - 4:00 AM</li>
+  <li class="list-group-item list-group-item-success rounded-top" ><span className="textHours">Sun   10:00 AM - 1:00 AM</span></li>
+  <li class="list-group-item list-group-item-success" ><span className="textHours">Mon  11:00 AM - 2:00 AM</span></li>
+  <li class="list-group-item list-group-item-success"><span className="textHours">Tues  11:00 AM - 2:00 AM</span></li>
+  <li class="list-group-item list-group-item-success"><span className="textHours">Wed  11:00 AM - 2:00 AM</span></li>
+  <li class="list-group-item list-group-item-success"><span className="textHours">Thu   11:00 AM - 2:00 AM</span></li>
+  <li class="list-group-item list-group-item-success"><span className="textHours">Fri     11:00 AM - 4:00 AM</span></li>
+  <li class="list-group-item list-group-item-success rounded-bottom"><span className="textHours">Sat    10:00 AM - 4:00 AM</span></li>
 </ul>
       {/* <ul>Sun   10:00 AM - 1:00 AM</ul>
       <ul>Mon  11:00 AM - 2:00 AM</ul>
