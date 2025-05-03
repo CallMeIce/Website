@@ -101,7 +101,89 @@ return (
     </div>
       </div>
       </div>
+      <br></br>
+      <br></br>
+  <div>
+  <h2 class="list-group-item-success d-inline-block rounded">Traditional Drinks</h2>
+  <br></br>
+  <br></br>
+  <br></br>
+  <div class="container text-center">
+  <div class="row">
+    <div class="col">
 
+
+    </div>
+
+    <div class="col">Beers
+    <br></br>
+    <br></br>
+    <p>Bud Light</p>
+    <br></br>
+    <p>Coors Light</p>
+    <br></br>
+    <p>Corona</p>
+    <br></br>
+    <p>Goose</p>
+    <br></br>
+    <p>Heineken</p>
+    <br></br>
+    <p>Budweiser</p>
+    <br></br>
+    <p>Belgian White</p>
+    <br></br>
+    <p>Guinness</p>
+    <br></br>
+    <p>Irish Red Ale</p>
+
+    </div>
+    <div class="col">Bottle
+    <br></br>
+    <br></br>
+    <p>5</p>
+    <br></br>
+    <p>5</p>
+    <br></br>
+    <p>5</p>
+    <br></br>
+    <p>5</p>
+    <br></br>
+    <p>5</p>
+    <br></br>
+    <p>6</p>
+    <br></br>
+    <p>6</p>
+    <br></br>
+    <p>6</p>
+    <br></br>
+    <p>7</p>
+</div>
+
+    <div class="col">Tap
+    <br></br>
+    <br></br>
+    <p>$3.50</p>
+    <br></br>
+    <p>3.50</p>
+    <br></br>
+    <p>3.50</p>
+    <br></br>
+    <p>3.50</p>
+    <br></br>
+    <p>3.50</p>
+    <br></br>
+    <p>4.50</p>
+    <br></br>
+    <p>4.50</p>
+    <br></br>
+    <p>4.50</p>
+    <br></br>
+    <p>5.50</p>
+</div>
+  </div>
+  </div>
+
+  </div>
 
 
 
