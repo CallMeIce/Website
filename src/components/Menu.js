@@ -168,7 +168,7 @@ export default function Menu() {
 <br></br>
         <br></br>
         <br></br>
-  <h2 class="list-group-item list-group-item-success rounded d-inline-block"><span className="textHeaders">Desserts</span></h2>
+  <h1 class="list-group-item list-group-item-success rounded d-inline-block"><span className="textHeaders">Desserts</span></h1>
   <br></br>
       <div class="row">
     <div class="col-6">

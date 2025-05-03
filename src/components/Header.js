@@ -13,9 +13,9 @@ return (
 
 <nav class="navbar sticky-top navbar-dark bg-dark">
   <div class="container-fluid">
-    <a class="navbar-brand" href="/About">
+    <a class="navbar-brand"  href="/About">
     <img style={styles.imageStyle} src={require('../images/Logo.jpg')} alt="Pub Logo" ></img>
-        Pub
+        <span className="navTxt">Pub</span>
         </a>
         <ul class="nav justify-content-end">
   <li class="nav-item">

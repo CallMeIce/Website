@@ -17,7 +17,7 @@ export default function About() {
 return (<div className="container">
     <div>
         <div className="aboutMsg"> 
-            <p> Located near the East Village.
+            <p className="textHours" class="list-group-item list-group-item-success rounded"> Located near the East Village.
             Pub is a well known pub where you can relax, unwind, and enjoy making some
             new memories! </p>
             </div>
