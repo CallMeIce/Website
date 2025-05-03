@@ -4,10 +4,9 @@ import "./style.css";
 export default function Menu() {
   return (
     <div className="container">
+    
       <br></br>
-      <h1 class="list-group-item list-group-item-success rounded"> <strong>Menu</strong></h1>
-      <br></br>
-      <h2 class="list-group-item list-group-item-success rounded"><strong>Appetizers</strong></h2>
+      <h1 class="list-group-item list-group-item-success rounded"><span className="textHeaders">Appetizers</span></h1>
       
       <br></br>
       <div class="row">
@@ -84,7 +83,8 @@ export default function Menu() {
       <div>
           <br></br>
           <br></br>
-      <h2 class="list-group-item list-group-item-success d-inline-block rounded" >Pub's Dazzlin' Classics!</h2>
+      <h1 class="list-group-item list-group-item-success d-inline-block rounded" ><span className="textHeaders">Pub's Dazzlin' Classics!</span></h1>
+      <br></br>
       <br></br>
       <div class="row">
     <div class="col-6">
@@ -168,7 +168,7 @@ export default function Menu() {
 <br></br>
         <br></br>
         <br></br>
-  <h2 class="list-group-item list-group-item-success rounded d-inline-block"><strong>Desserts</strong></h2>
+  <h2 class="list-group-item list-group-item-success rounded d-inline-block"><span className="textHeaders">Desserts</span></h2>
   <br></br>
       <div class="row">
     <div class="col-6">
