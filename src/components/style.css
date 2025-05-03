@@ -105,6 +105,13 @@
     font-weight: bold;
 }
 
+.tradBeer{
+    color: black;
+    text-decoration: underline;
+    font-family: "Playfair Display", serif;
+
+}
+
 .carousel-inner {
     min-width: 250px;
     height: 500px;

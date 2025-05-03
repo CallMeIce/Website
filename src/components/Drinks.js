@@ -5,11 +5,11 @@ export default function Drinks() {
 return (
   <div className="menuFont">
     <div>
-        <h1 class="list-group-item-success d-inline-block rounded"><span>Drinks</span></h1>
-        <br></br>
-        <br></br>
-        <br></br>
-        <h2 class="list-group-item-success d-inline-block rounded">Pub's Dazzlin' Classics!</h2>
+        {/* <h1 class="list-group-item-success d-inline-block rounded"><span>Drinks</span></h1> */}
+        {/* <br></br>
+        <br></br> */}
+        {/* <br></br> */}
+        <h1 class="list-group-item-success d-inline-block rounded">Pub's Dazzlin' Classics!</h1>
 </div>
 <br></br>
 
@@ -104,18 +104,250 @@ return (
       <br></br>
       <br></br>
   <div>
-  <h2 class="list-group-item-success d-inline-block rounded">Traditional Drinks</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h1 class="list-group-item-success d-inline-block rounded">Traditional Drinks</h1>
   <br></br>
   <br></br>
   <br></br>
+
   <div class="container text-center">
+  <div class="row">
+    <div class="col">
+    <div class="card" style={{width: "18rem"}}>
+  <img src={require('../images/bud-light.jpg')} class="card-img-top" alt="Bud Light"></img>
+  <div class="card-body list-group-item-success">
+    <h6 className="textAppDescriptionHeader">Bud Light</h6>
+    <p class="card-text" className="textAppDescription"><div class="container text-center">
+  <div class="row">
+  <div class="col">
+      <span className="tradBeer">Bottle</span>
+      <p>$5</p>
+    </div>
+    <div class="col">
+    <span className="tradBeer">Tap</span>
+      <p>$3.50</p>
+    </div>
+    </div>
+  </div></p>
+  </div>
+</div>
+    </div>
+
+
+     <div class="col">
+    <div class="card" style={{width: "18rem"}}>
+  <img src={require('../images/coors-light.jpg')} class="card-img-top" alt="Coors Light"></img>
+  <div class="card-body list-group-item-success">
+    <h6 className="textAppDescriptionHeader">Coors Light</h6>
+    <p class="card-text" className="textAppDescription"><div class="container text-center">
+  <div class="row">
+  <div class="col">
+      <span className="tradBeer">Bottle</span>
+      <p>$5</p>
+    </div>
+    <div class="col">
+    <span className="tradBeer">Tap</span>
+      <p>$3.50</p>
+    </div>
+    </div>
+  </div></p>
+  </div>
+</div>
+    </div>
+
+    
+    <div class="col">
+    <div class="card" style={{width: "18rem"}}>
+  <img src={require('../images/corona.webp')} class="card-img-top" alt="Corona"></img>
+  <div class="card-body list-group-item-success">
+    <h6 className="textAppDescriptionHeader">Corona</h6>
+    <p class="card-text" ><div class="container text-center">
+  <div class="row">
+    <div class="col">
+      <span className="tradBeer">Bottle</span>
+      <p>$5</p>
+    </div>
+    <div class="col">
+    <span className="tradBeer">Tap</span>
+      <p>$3.50</p>
+    </div>
+    </div>
+  </div></p>
+  </div>
+</div>
+    </div>
+
+    
+    </div>
+
+    <br></br>
+  <br></br>
+  <br></br>
+
+    <div class="row">
+    <div class="col">
+    <div class="card" style={{width: "18rem"}}>
+  <img src={require('../images/goose-ipa.png')} class="card-img-top" alt="Goose"></img>
+  <div class="card-body list-group-item-success">
+    <h6 className="textAppDescriptionHeader">Goose</h6>
+    <p class="card-text"><div class="container text-center">
+  <div class="row">
+    <div class="col">
+      <span className="tradBeer">Bottle</span>
+      <p>$5</p>
+    </div>
+    <div class="col">
+    <span className="tradBeer">Tap</span>
+      <p>$3.50</p>
+    </div>
+    </div>
+  </div></p>
+  </div>
+</div>
+    </div>
+
+    
+    <div class="col">
+    <div class="card" style={{width: "18rem"}}>
+  <img src={require('../images/heineken.webp')} class="card-img-top" alt="Heineken"></img>
+  <div class="card-body list-group-item-success">
+    <h6 className="textAppDescriptionHeader">Heineken</h6>
+    <p class="card-text" className="textAppDescription"><div class="container text-center">
+  <div class="row">
+  <div class="col">
+      <span className="tradBeer">Bottle</span>
+      <p>$5</p>
+    </div>
+    <div class="col">
+    <span className="tradBeer">Tap</span>
+      <p>$3.50</p>
+    </div>
+    </div>
+  </div></p>
+  </div>
+</div>
+    </div>
+
+    
+    <div class="col">
+    <div class="card" style={{width: "18rem"}}>
+  <img src={require('../images/budweiser.webp')} class="card-img-top" alt="Budweiser"></img>
+  <div class="card-body list-group-item-success">
+    <h6 className="textAppDescriptionHeader">Budweiser</h6>
+    <p class="card-text" className="textAppDescription"><div class="container text-center">
+  <div class="row">
+  <div class="col">
+      <span className="tradBeer">Bottle</span>
+      <p>$6</p>
+    </div>
+    <div class="col">
+    <span className="tradBeer">Tap</span>
+      <p>$4.50</p>
+    </div>
+    </div>
+  </div></p>
+  </div>
+</div>
+    </div>
+
+    
+    </div>
+
+    <br></br>
+  <br></br>
+  <br></br>
+
+
+    <div class="row">
+    <div class="col">
+    <div class="card" style={{width: "18rem"}}>
+  <img src={require('../images/blue-moon.webp')} class="card-img-top" alt="Blue Moon"></img>
+  <div class="card-body list-group-item-success">
+    <h6 className="textAppDescriptionHeader">Blue Moon</h6>
+    <p class="card-text" className="textAppDescription"><div class="container text-center">
+  <div class="row">
+  <div class="col">
+      <span className="tradBeer">Bottle</span>
+      <p>$6</p>
+    </div>
+    <div class="col">
+    <span className="tradBeer">Tap</span>
+      <p>$4.50</p>
+    </div>
+    </div>
+  </div></p>
+  </div>
+</div>
+    </div>
+
+    
+    <div class="col">
+    <div class="card" style={{width: "18rem"}}>
+  <img src={require('../images/guinness.png')} class="card-img-top" alt="Guinness"></img>
+  <div class="card-body list-group-item-success">
+    <h6 className="textAppDescriptionHeader">Guinness</h6>
+    <p class="card-text" className="textAppDescription"><div class="container text-center">
+  <div class="row">
+  <div class="col">
+      <span className="tradBeer">Bottle</span>
+      <p>$6</p>
+    </div>
+    <div class="col">
+    <span className="tradBeer">Tap</span>
+      <p>$4.50</p>
+    </div>
+    </div>
+  </div></p>
+  </div>
+</div>
+    </div>
+
+    
+    <div class="col">
+    <div class="card" style={{width: "18rem"}}>
+  <img src={require('../images/007199070002.jpg')} class="card-img-top" alt="Killian's"></img>
+  <div class="card-body list-group-item-success">
+    <h6 className="textAppDescriptionHeader">Killian's</h6>
+    <p class="card-text" className="textAppDescription"><div class="container text-center">
+  <div class="row">
+  <div class="col">
+      <span className="tradBeer">Bottle</span>
+      <p>$7</p>
+    </div>
+    <div class="col">
+    <span className="tradBeer">Tap</span>
+      <p>$5.50</p>
+    </div>
+    </div>
+  </div></p>
+  </div>
+</div>
+    </div>
+
+    
+    </div>
+    </div>
+
+  {/* <div class="container text-center">
   <div class="row">
     <div class="col">
 
 
     </div>
 
-    <div class="col">Beers
+    <div class="col list-group-item-success d-inline-block rounded">Beers
     <br></br>
     <br></br>
     <p>Bud Light</p>
@@ -181,7 +413,7 @@ return (
     <p>5.50</p>
 </div>
   </div>
-  </div>
+  </div> */}
 
   </div>
 
