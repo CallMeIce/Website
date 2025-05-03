@@ -97,6 +97,14 @@
     color: black;
 }
 
+.textAppDescriptionHeader {
+    font-family: "Playfair Display", serif;
+    color: black;
+    text-decoration: underline;
+    font-size: larger;
+    font-weight: bold;
+}
+
 .carousel-inner {
     min-width: 250px;
     height: 500px;
