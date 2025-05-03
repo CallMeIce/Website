@@ -81,3 +81,23 @@
     padding-top: 5rem;
     font-family: "Playfair Display", serif;
 }
+
+.textApp {
+    text-align: left;
+    font-family: "Playfair Display", serif;
+    color: black;
+    text-decoration: underline;
+    font-size: larger;
+}
+
+.carousel-inner {
+    min-width: 250px;
+    height: 500px;
+    width: 100%;
+}
+
+.imgMenu {
+    width: auto;
+    height: 25%;
+    object-fit: contain;
+  }

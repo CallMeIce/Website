@@ -3,21 +3,73 @@ import "./style.css";
 
 export default function Menu() {
   return (
-    <div className="menuFont">
+    <div className="container">
       <br></br>
-      <h1>Menu</h1>
-      <h2><br></br>Appetizers</h2>
+      <h1 className="menuFont">Menu</h1>
+      <h2 className="menuFont"><br></br>Appetizers</h2>
       <br></br>
       <div class="row">
-    <div class="col-4">col-8</div>
-    <div class="col-8">
-      <ul>
-      <li>$6 - Mozzarella Sticks ~or~ French Fries ~or~ Onion Rings</li>
-      <li>$8 - Potato Skins – Crispy potato halves loaded with cheese, bacon, and sour cream.</li>
-      <li>$10 - Chicken Wings (BBQ, Buffalo, Mild, Teriyaki)</li>
-      <li>$12 - Irish Nachos – Sliced potatoes topped with melted cheese, jalapeños, and sour cream.</li>
-      <li>$22 - The Four Leaf Clover (Mix of the 4 appetizers)</li>
-        </ul>
+    <div class="col-6" >
+    <div id="carouselExample" class="carousel slide" >
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img className="imgMenu" src={require('../images/mozz-sticks.jpg')} class="d-block w-100" alt="Mozzarella Sticks"></img>
+    </div>
+    <div class="carousel-item">
+      <img className="imgMenu" src={require('../images/onion-rings.jpg')}   class="d-block w-100" alt="Onion Rings"></img>
+    </div>
+    <div class="carousel-item">
+      <img className="imgMenu" src={require('../images/french-fry.jpg')}  class="d-block w-100" alt="French Fries"></img>
+    </div>
+    <div class="carousel-item">
+      <img className="imgMenu" src={require('../images/chicken-wings.jpg')}  class="d-block w-100" alt="Chicken Wings"></img>
+    </div>
+    <div class="carousel-item">
+      <img className="imgMenu" src={require('../images/Loaded_Potatoskins.jpg')}  class="d-block w-100" alt="Loaded Potato Skins"></img>
+    </div>
+    <div class="carousel-item">
+      <img className="imgMenu" src={require('../images/irish-nachos.jpg')} class="d-block w-100" alt="Irish Nachos"></img>
+    </div>
+    <div class="carousel-item">
+      <img className="imgMenu" src={require('../images/4-leaf-clover.jpg')} class="d-block w-100" alt="4 Leaf Clover"></img>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+      
+
+
+
+
+      </div>
+    <div class="col-6">
+              <ul class="list-group list-group-flush d-inline-block">
+        <li class="list-group-item list-group-item-success"><strong> <span className="textApp">Mozzarella Sticks ~or~ Onion Rings ... $6</span></strong>
+        <br></br><p>Breaded mozzarella cheese sticks fried to a golden crunch ~or~ Thick-cut onions 
+          dipped in a seasoned batter and fried until golden and crunchy, both served with warm marinara for the perfect taste</p>
+        </li>
+        <li class="list-group-item list-group-item-success"><strong> <span className="textApp">French Fries ... $7</span></strong>
+        <br></br><p>Crispy, golden-cut potatoes fried to perfection, lightly seasoned with sea salt. Served hot and irresistibly crunchy</p></li>
+        <li class="list-group-item list-group-item-success"><strong> <span className="textApp">Potato Skins ... $8</span></strong>
+        <br></br><p>Crispy potato halves loaded with cheese, bacon, and sour cream. </p>
+        </li>
+        <li class="list-group-item list-group-item-success"><strong> <span className="textApp">Chicken Wings ... $10</span></strong>
+        <br></br><p>BBQ, Buffalo, Mild, Teriyaki (Boneless ~or~ Bone-in)</p>
+        </li>
+        <li class="list-group-item list-group-item-success"><strong> <span className="textApp">Irish Nachos ... $12</span></strong>
+        <br></br><p>Sliced potatoes topped with melted cheese, 	jalapeños, and sour cream. </p>
+        </li>
+        <li class="list-group-item list-group-item-success"><strong> <span className="textApp">The Four Leaf Clover ...$22</span></strong>
+        <br></br><p>Mix any of 4 appetizers</p>
+        </li>
+      </ul>
         </div>
   </div>
       <div>
