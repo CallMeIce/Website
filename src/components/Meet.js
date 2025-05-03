@@ -35,12 +35,12 @@ export default function MeetUs() {
       </div>
     </div>
     <div class="carousel-item">
-    <img src={require('../images/Moe.jpg')} height={600} class="d-block w-100" alt="Sebastion"></img>
+    <img src={require('../images/waluigi.jpg')} height={600} class="d-block w-100" alt="Sebastion"></img>
       <div class="carousel-caption d-none d-md-block">
         <h5>Sebastion</h5>
-        <p>With my expertise in mixing drinks, I decided to work at Pub whipping up some of my specialties like 
-          The Irish Eyes or The Belfast Trash Can. If you want to simmer down and take it easy I can always whip
-          up a nice classic Old Fashion.
+        <p>with years spent perfecting my craft, traveling across the world and acquainting myself with 
+          the art of a fine drink. The Pub allows for my expertise to shine in an environment filled
+           with laughs, joy, and a good time for a drink on any given day. 
         </p>
       </div>
     </div>
