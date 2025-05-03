@@ -39,16 +39,19 @@
 }
 
 .textHours {
-    color: white;
+    font-family: "Playfair Display", serif;
+    color: black;
     font-size: 2rem;
 }
 
-.textIcon {
-    color: white;
+.textHeaders {
+    color: black;
+    font-family: "Playfair Display", serif;
+    text-decoration: underline;
 }
 
 .textMeet {
-    color: white;
+    color: rgb(59, 59, 59);
     padding-top: 10px;
     display: flex;
     font-family: "Playfair Display", serif;
