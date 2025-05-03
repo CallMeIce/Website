@@ -5,7 +5,8 @@ export default function MeetUs() {
 
   return (
     <div className="container">
-    <h1 className="textMeet">Meet the Team</h1>
+      <br></br>
+    <h1 class="list-group-item list-group-item-success rounded"><span className="textHeaders">Meet the Team</span></h1>
     <br></br>
 
 <div>
