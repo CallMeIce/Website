@@ -16,24 +16,31 @@ export default function Menu() {
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img className="imgMenu" src={require('../images/mozz-sticks.jpg')} class="d-block w-100" alt="Mozzarella Sticks"></img>
+      <figcaption  class="figure-caption text-end" className="imgCap">Mozzarella Sticks</figcaption>
     </div>
     <div class="carousel-item">
       <img className="imgMenu" src={require('../images/onion-rings.jpg')}   class="d-block w-100" alt="Onion Rings"></img>
+      <figcaption class="figure-caption text-end" className="imgCap">Onion Rings</figcaption>
     </div>
     <div class="carousel-item">
       <img className="imgMenu" src={require('../images/french-fry.jpg')}  class="d-block w-100" alt="French Fries"></img>
+      <figcaption class="figure-caption text-end" className="imgCap">French Fries</figcaption>
     </div>
     <div class="carousel-item">
       <img className="imgMenu" src={require('../images/chicken-wings.jpg')}  class="d-block w-100" alt="Chicken Wings"></img>
+      <figcaption class="figure-caption text-end" className="imgCap">Chicken Wings</figcaption>
     </div>
     <div class="carousel-item">
       <img className="imgMenu" src={require('../images/Loaded_Potatoskins.jpg')}  class="d-block w-100" alt="Loaded Potato Skins"></img>
+      <figcaption class="figure-caption text-end" className="imgCap">Potato Skins</figcaption>
     </div>
     <div class="carousel-item">
       <img className="imgMenu" src={require('../images/irish-nachos.jpg')} class="d-block w-100" alt="Irish Nachos"></img>
+      <figcaption class="figure-caption text-end" className="imgCap">Irish Nachos</figcaption>
     </div>
     <div class="carousel-item">
       <img className="imgMenu" src={require('../images/4-leaf-clover.jpg')} class="d-block w-100" alt="4 Leaf Clover"></img>
+      <figcaption class="figure-caption text-end" className="imgCap">Four Leaf Clover</figcaption>
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -54,22 +61,22 @@ export default function Menu() {
     <div class="col-6">
               <ul class="list-group list-group-flush d-inline-block rounded">
         <li class="list-group-item list-group-item-success"><strong> <span className="textApp">Mozzarella Sticks ~or~ Onion Rings ... $6</span></strong>
-        <br></br><p>Breaded mozzarella cheese sticks fried to a golden crunch ~or~ Thick-cut onions 
+        <br></br><p className="textAppDescription">Breaded mozzarella cheese sticks fried to a golden crunch ~or~ Thick-cut onions 
           dipped in a seasoned batter and fried until golden and crunchy, both served with warm marinara for the perfect taste</p>
         </li>
         <li class="list-group-item list-group-item-success"><strong> <span className="textApp">French Fries ... $7</span></strong>
-        <br></br><p>Crispy, golden-cut potatoes fried to perfection, lightly seasoned with sea salt. Served hot and irresistibly crunchy</p></li>
+        <br></br><p className="textAppDescription">Crispy, golden-cut potatoes fried to perfection, lightly seasoned with sea salt. Served hot and irresistibly crunchy</p></li>
         <li class="list-group-item list-group-item-success"><strong> <span className="textApp">Potato Skins ... $8</span></strong>
-        <br></br><p>Crispy potato halves loaded with cheese, bacon, and sour cream. </p>
+        <br></br><p className="textAppDescription">Crispy potato halves loaded with cheese, bacon, and sour cream. </p>
         </li>
         <li class="list-group-item list-group-item-success"><strong> <span className="textApp">Chicken Wings ... $10</span></strong>
-        <br></br><p>BBQ, Buffalo, Mild, Teriyaki (Boneless ~or~ Bone-in)</p>
+        <br></br><p className="textAppDescription">BBQ, Buffalo, Mild, Teriyaki (Boneless ~or~ Bone-in)</p>
         </li>
         <li class="list-group-item list-group-item-success"><strong> <span className="textApp">Irish Nachos ... $12</span></strong>
-        <br></br><p>Sliced potatoes topped with melted cheese, 	jalapeños, and sour cream. </p>
+        <br></br><p className="textAppDescription">Sliced potatoes topped with melted cheese, 	jalapeños, and sour cream. </p>
         </li>
         <li class="list-group-item list-group-item-success"><strong> <span className="textApp">The Four Leaf Clover ...$22</span></strong>
-        <br></br><p>Mix any of 4 appetizers</p>
+        <br></br><p className="textAppDescription">Mix any of 4 appetizers</p>
         </li>
       </ul>
         </div>
@@ -77,10 +84,14 @@ export default function Menu() {
       <div>
           <br></br>
           <br></br>
-      <h2 class="list-group-item list-group-item-success d-inline-block rounded">Pub's Dazzlin' Classics!</h2>
+      <h2 class="list-group-item list-group-item-success d-inline-block rounded" >Pub's Dazzlin' Classics!</h2>
       <br></br>
       <div class="row">
-    <div class="col-6">col-8</div>
+    <div class="col-6">
+
+    
+
+    </div>
 
 
 
@@ -88,25 +99,25 @@ export default function Menu() {
 
 
     <ul class="list-group list-group-flush d-inline-block rounded">
-        <li class="list-group-item list-group-item-success"><strong> <span className="textApp">Chicken Quesadillas … $14</span></strong>
-        <br></br><p>Grilled flour tortillas stuffed with seasoned chicken, melted cheese, and served with salsa and sour cream</p>
+        <li class="list-group-item list-group-item-success "><strong> <span className="textApp">Chicken Quesadillas … $14</span></strong>
+        <br></br><p className="textAppDescription">Grilled flour tortillas stuffed with seasoned chicken, melted cheese, and served with salsa and sour cream</p>
         </li>
         <li class="list-group-item list-group-item-success"><strong> <span className="textApp">Personal Pizza … $12.50</span></strong>
         <br></br><p>A perfectly portioned pizza with your choice of toppings, baked to golden, cheesy perfection</p></li>
         <li class="list-group-item list-group-item-success"><strong> <span className="textApp">The Liquid Gold Stew … $16</span></strong>
-        <br></br><p>Slow-cooked beef with root vegetables, all simmered in a rich Guinness broth for deep, comforting flavor</p>
+        <br></br><p className="textAppDescription">Slow-cooked beef with root vegetables, all simmered in a rich Guinness broth for deep, comforting flavor</p>
         </li>
         <li class="list-group-item list-group-item-success"><strong> <span className="textApp">The Classic Comfort ... $14</span></strong>
-        <br></br><p>Juicy Irish sausages nestled on a bed of buttery mashed potatoes, drenched in savory onion gravy</p>
+        <br></br><p className="textAppDescription">Juicy Irish sausages nestled on a bed of buttery mashed potatoes, drenched in savory onion gravy</p>
         </li>
         <li class="list-group-item list-group-item-success"><strong> <span className="textApp">The Irish Tradition ... $18</span></strong>
-        <br></br><p>Tender, salty corned beef served with boiled cabbage, hearty potatoes, and sweet carrots</p>
+        <br></br><p className="textAppDescription">Tender, salty corned beef served with boiled cabbage, hearty potatoes, and sweet carrots</p>
         </li>
         <li class="list-group-item list-group-item-success"><strong> <span className="textApp">The Potato Pancake Surprise … $15</span></strong>
-        <br></br><p>Traditional Irish potato pancake stuffed with your choice of chicken, crispy bacon, or smoked salmon</p>
+        <br></br><p className="textAppDescription">Traditional Irish potato pancake stuffed with your choice of chicken, crispy bacon, or smoked salmon</p>
         </li>
         <li class="list-group-item list-group-item-success"><strong> <span className="textApp">The Lamb King ... $22</span></strong>
-        <br></br><p>Grilled lamb chops full of flavor, paired with garlic mashed potatoes and seasonal vegetables</p>
+        <br></br><p className="textAppDescription">Grilled lamb chops full of flavor, paired with garlic mashed potatoes and seasonal vegetables</p>
         </li>
       </ul>
         </div>  
@@ -117,7 +128,34 @@ export default function Menu() {
   <h2 class="list-group-item list-group-item-success rounded d-inline-block"><strong>Desserts</strong></h2>
   <br></br>
       <div class="row">
-    <div class="col-6">col-8</div>
+    <div class="col-6">
+
+    <div id="carouselExampleDessert" class="carousel slide" >
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src={require('../images/cheesecake.webp')} class="d-inline-block w-100" alt="Bailey's Cheesecake"></img>
+    </div>
+    <div class="carousel-item">
+      <img  src={require('../images/Guinness-Chocolate-Cake.jpg')}   class="d-inline-block w-100" alt="Guinness Chocolate Cake"></img>
+    </div>
+    <div class="carousel-item">
+      <img src={require('../images/Sticky-Toffee-Pudding.jpg')}  class="d-block w-100" alt="Sticky Toffee Pudding"></img>
+    </div>
+    <div class="carousel-item">
+      <img src={require('../images/Apple-tart.jpg')}  class="d-block w-100" alt="Apple Tart"></img>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDessert" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDessert" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+    </div>
 
 
 
@@ -125,19 +163,16 @@ export default function Menu() {
 
 
     <ul class="list-group list-group-flush d-inline-block rounded">
-        <li class="list-group-item list-group-item-success"><strong> <span className="textApp">Baileys Cheesecake … $8</span></strong>
-        <br></br><p>Creamy cheesecake infused with Baileys Irish Cream</p>
+        <li class="list-group-item list-group-item-success"><strong> <span className="textApp">Bailey's Cheesecake … $8</span></strong>
+        <br></br><p className="textAppDescription">Creamy cheesecake infused with Baileys Irish Cream</p>
         </li>
         <li class="list-group-item list-group-item-success"><strong> <span className="textApp">Guinness Chocolate Cake … $9</span></strong>
-        <br></br><p>Rich, moist chocolate cake made with Guinness stout</p></li>
-        <li class="list-group-item list-group-item-success"><strong> <span className="textApp">The Liquid Gold Stew … $16</span></strong>
-        <br></br><p>Slow-cooked beef with root vegetables, all simmered in a rich Guinness broth for deep, comforting flavor</p>
-        </li>
+        <br></br><p className="textAppDescription">Rich, moist chocolate cake made with Guinness stout</p></li>
         <li class="list-group-item list-group-item-success"><strong> <span className="textApp">Sticky Toffee Pudding … $9</span></strong>
-        <br></br><p>Warm sponge cake drenched in toffee sauce, served with cream</p>
+        <br></br><p className="textAppDescription">Warm sponge cake drenched in toffee sauce, served with cream</p>
         </li>
         <li class="list-group-item list-group-item-success"><strong> <span className="textApp">Irish Apple Tart … $7</span></strong>
-        <br></br><p>Flaky pastry filled with cinnamon-spiced apples, served with vanilla ice cream</p>
+        <br></br><p className="textAppDescription">Flaky pastry filled with cinnamon-spiced apples, served with vanilla ice cream</p>
         </li>
       </ul>
         </div>  

@@ -89,6 +89,10 @@
     text-decoration: underline;
     font-size: larger;
 }
+.textAppDescription {
+    font-family: "Playfair Display", serif;
+    color: black;
+}
 
 .carousel-inner {
     min-width: 250px;
@@ -100,4 +104,18 @@
     width: auto;
     height: 25%;
     object-fit: contain;
+  }
+
+  .imgDessert {
+    min-width: 100px;
+    width: 30%;
+    height: 15%;
+    object-fit: fill;
+  }
+
+  .imgCap {
+    color: white;
+    background-color: darkolivegreen;
+    font-family: "Playfair Display", serif;
+    
   }
