@@ -26,6 +26,28 @@ return (
     </div>
 
     <div class="col">
+
+    <div class="col">
+    <div class="card" style={{width: "18rem"}}>
+  <img src={require('../images/Nutty-Irishman.webp')} class="card-img-top" alt="Nutty Irishman"></img>
+  <div class="card-body list-group-item-success">
+    <h6 className="textAppDescriptionHeader">Nutty Irishman...$10.00</h6>
+    <p class="card-text" className="textAppDescription">Bailey's Irish Cream, Frangelico Hazelnut Liquor, & Ice</p>
+  </div>
+</div>
+    </div>
+    </div>
+
+
+    <div class="col">
+    <div class="card" style={{width: "18rem"}}>
+  <img src={require('../images/mudslide.webp')} class="card-img-top" alt="The Mudslide"></img>
+  <div class="card-body list-group-item-success">
+    <h6 className="textAppDescriptionHeader">The Mudslide...$10.00</h6>
+    <p class="card-text" className="textAppDescription">Whiskey, Baileys, Kahlua, Chocolate Syrup, Whipped Cream, Milk Chocolate</p>
+  </div>
+</div>
+    </div>
     <div class="card" style={{width: "18rem"}}>
   <img src={require('../images/Irish-trash-can.jpg')} class="card-img-top" alt="The Belfast Trash Can"></img>
   <div class="card-body list-group-item-success">
@@ -33,39 +55,19 @@ return (
     <p class="card-text" className="textAppDescription">Gin, Light Rum, Vodka, Peach Schnapps, Bols Blue Curacao, & Triple Sec</p>
   </div>
 </div>
-    </div>
-
-    <div class="col">
-    <div class="card" style={{width: "18rem"}}>
-  <img src={require('../images/Irish-coffee.jpg')} class="card-img-top" alt="Irish Coffee"></img>
-  <div class="card-body list-group-item-success">
-    <h6 className="textAppDescriptionHeader">Irish Coffee...$8.00</h6>
-    <p class="card-text" className="textAppDescription">Whiskey, Ground Coffee, Demerara Sugar, Fresh Cream, & Nutmeg </p>
-  </div>
-</div>
-    </div>
-
-   <div class="col">
-    <div class="card" style={{width: "18rem"}}>
-  <img src={require('../images/irish-gold.jpg')} class="card-img-top" alt="Irish Gold"></img>
-  <div class="card-body list-group-item-success">
-    <h6 className="textAppDescriptionHeader">Irish Gold...$8.00</h6>
-    <p class="card-text" className="textAppDescription">Whiskey, Ginger Ale, Peach Schnapps, & Fresh Orange</p>
-  </div>
-</div>
-    </div>
       </div>
 
       <br></br>
       <br></br>
 
       <div class="row">
-    <div class="col">
+
+      <div class="col">
     <div class="card" style={{width: "18rem"}}>
-  <img src={require('../images/Nutty-Irishman.webp')} class="card-img-top" alt="Nutty Irishman"></img>
+  <img src={require('../images/irish-gold.jpg')} class="card-img-top" alt="Irish Gold"></img>
   <div class="card-body list-group-item-success">
-    <h6 className="textAppDescriptionHeader">Nutty Irishman...$10.00</h6>
-    <p class="card-text" className="textAppDescription">Bailey's Irish Cream, Frangelico Hazelnut Liquor, & Ice</p>
+    <h6 className="textAppDescriptionHeader">Irish Gold...$8.00</h6>
+    <p class="card-text" className="textAppDescription">Whiskey, Ginger Ale, Peach Schnapps, & Fresh Orange</p>
   </div>
 </div>
     </div>
@@ -90,12 +92,12 @@ return (
 </div>
     </div>
 
-   <div class="col">
+    <div class="col">
     <div class="card" style={{width: "18rem"}}>
-  <img src={require('../images/mudslide.webp')} class="card-img-top" alt="The Mudslide"></img>
+  <img src={require('../images/Irish-coffee.jpg')} class="card-img-top" alt="Irish Coffee"></img>
   <div class="card-body list-group-item-success">
-    <h6 className="textAppDescriptionHeader">The Mudslide...$10.00</h6>
-    <p class="card-text" className="textAppDescription">Whiskey, Baileys, Kahlua, Chocolate Syrup, Whipped Cream, Milk Chocolate</p>
+    <h6 className="textAppDescriptionHeader">Irish Coffee...$8.00</h6>
+    <p class="card-text" className="textAppDescription">Whiskey, Ground Coffee, Demerara Sugar, Fresh Cream, & Nutmeg </p>
   </div>
 </div>
     </div>
@@ -146,20 +148,20 @@ return (
     </div>
 
 
-     <div class="col">
+    <div class="col">
     <div class="card" style={{width: "18rem"}}>
-  <img src={require('../images/coors-light.jpg')} class="card-img-top" alt="Coors Light"></img>
+  <img src={require('../images/blue-moon.webp')} class="card-img-top" alt="Blue Moon"></img>
   <div class="card-body list-group-item-success">
-    <h6 className="textAppDescriptionHeader">Coors Light</h6>
+    <h6 className="textAppDescriptionHeader">Blue Moon</h6>
     <p class="card-text" className="textAppDescription"><div class="container text-center">
   <div class="row">
   <div class="col">
       <span className="tradBeer">Bottle</span>
-      <p>$5</p>
+      <p>$6</p>
     </div>
     <div class="col">
     <span className="tradBeer">Tap</span>
-      <p>$3.50</p>
+      <p>$4.50</p>
     </div>
     </div>
   </div></p>
@@ -240,29 +242,27 @@ return (
 </div>
     </div>
 
-    
+
     <div class="col">
     <div class="card" style={{width: "18rem"}}>
-  <img src={require('../images/budweiser.webp')} class="card-img-top" alt="Budweiser"></img>
+  <img src={require('../images/007199070002.jpg')} class="card-img-top" alt="Killian's"></img>
   <div class="card-body list-group-item-success">
-    <h6 className="textAppDescriptionHeader">Budweiser</h6>
+    <h6 className="textAppDescriptionHeader">Killian's</h6>
     <p class="card-text" className="textAppDescription"><div class="container text-center">
   <div class="row">
   <div class="col">
       <span className="tradBeer">Bottle</span>
-      <p>$6</p>
+      <p>$7</p>
     </div>
     <div class="col">
     <span className="tradBeer">Tap</span>
-      <p>$4.50</p>
+      <p>$5.50</p>
     </div>
     </div>
   </div></p>
   </div>
 </div>
-    </div>
-
-    
+    </div>    
     </div>
 
     <br></br>
@@ -270,12 +270,17 @@ return (
   <br></br>
 
 
+ 
+    
+
+
+
     <div class="row">
-    <div class="col">
+<div class="col">
     <div class="card" style={{width: "18rem"}}>
-  <img src={require('../images/blue-moon.webp')} class="card-img-top" alt="Blue Moon"></img>
+  <img src={require('../images/budweiser.webp')} class="card-img-top" alt="Budweiser"></img>
   <div class="card-body list-group-item-success">
-    <h6 className="textAppDescriptionHeader">Blue Moon</h6>
+    <h6 className="textAppDescriptionHeader">Budweiser</h6>
     <p class="card-text" className="textAppDescription"><div class="container text-center">
   <div class="row">
   <div class="col">
@@ -314,21 +319,20 @@ return (
 </div>
     </div>
 
-    
     <div class="col">
     <div class="card" style={{width: "18rem"}}>
-  <img src={require('../images/007199070002.jpg')} class="card-img-top" alt="Killian's"></img>
+  <img src={require('../images/coors-light.jpg')} class="card-img-top" alt="Coors Light"></img>
   <div class="card-body list-group-item-success">
-    <h6 className="textAppDescriptionHeader">Killian's</h6>
+    <h6 className="textAppDescriptionHeader">Coors Light</h6>
     <p class="card-text" className="textAppDescription"><div class="container text-center">
   <div class="row">
   <div class="col">
       <span className="tradBeer">Bottle</span>
-      <p>$7</p>
+      <p>$5</p>
     </div>
     <div class="col">
     <span className="tradBeer">Tap</span>
-      <p>$5.50</p>
+      <p>$3.50</p>
     </div>
     </div>
   </div></p>
