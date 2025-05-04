@@ -9,7 +9,7 @@ return (
         {/* <br></br>
         <br></br> */}
         {/* <br></br> */}
-        <h1 class="list-group-item-success d-inline-block rounded">Pub's Dazzlin' Classics!</h1>
+        <h1 class="list-group-item-success d-inline-block rounded"><span className="textHeaders">Pub's Dazzlin' Classics!</span></h1>
 </div>
 <br></br>
 
@@ -119,7 +119,7 @@ return (
 
 
 
-  <h1 class="list-group-item-success d-inline-block rounded">Traditional Drinks</h1>
+  <h1 class="list-group-item-success d-inline-block rounded"><span className="textHeaders">Traditional Drinks</span></h1>
   <br></br>
   <br></br>
   <br></br>

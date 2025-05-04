@@ -20,9 +20,9 @@ return (
         <br></br>
         <br></br>
         <div > 
-            <p  class="list-group-item list-group-item-success rounded"> <span className="textHours"> Located near the East Village.
+            <h3  class="list-group-item list-group-item-success rounded"> <span className="textHours"> Located near the East Village.
             Pub is a well-known pub where you can relax, unwind, and enjoy making some
-            new memories!</span> </p>
+            new memories!</span> </h3>
             </div>   
      </div>
         <br></br>

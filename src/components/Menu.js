@@ -83,7 +83,7 @@ export default function Menu() {
       <div>
           <br></br>
           <br></br>
-      <h1 class="list-group-item list-group-item-success d-inline-block rounded" ><span className="textHeaders">Pub's Dazzlin' Classics!</span></h1>
+      <h1 class="list-group-item list-group-item-success d-inline-block rounded" ><span className="textHeaders">Main Courses</span></h1>
       <br></br>
       <br></br>
       <div class="row">
