@@ -26,12 +26,12 @@ export default function Menu() {
       <figcaption class="figure-caption text-end" className="imgCap">French Fries</figcaption>
     </div>
     <div class="carousel-item">
-      <img className="imgMenu" src={require('../images/chicken-wings.jpg')}  class="d-block w-100" height={450} alt="Chicken Wings"></img>
-      <figcaption class="figure-caption text-end" className="imgCap">Chicken Wings</figcaption>
-    </div>
-    <div class="carousel-item">
       <img className="imgMenu" src={require('../images/Loaded_Potatoskins.jpg')}  class="d-block w-100" height={450} alt="Loaded Potato Skins"></img>
       <figcaption class="figure-caption text-end" className="imgCap">Potato Skins</figcaption>
+    </div>
+    <div class="carousel-item">
+      <img className="imgMenu" src={require('../images/chicken-wings.jpg')}  class="d-block w-100" height={450} alt="Chicken Wings"></img>
+      <figcaption class="figure-caption text-end" className="imgCap">Chicken Wings</figcaption>
     </div>
     <div class="carousel-item">
       <img className="imgMenu" src={require('../images/irish-nachos.jpg')} class="d-block w-100" height={450} alt="Irish Nachos"></img>
@@ -66,13 +66,13 @@ export default function Menu() {
         <li class="list-group-item list-group-item-success"><strong> <span className="textApp">French Fries ... $7</span></strong>
         <br></br><p className="textAppDescription">Crispy, golden-cut potatoes fried to perfection, lightly seasoned with sea salt. Served hot and irresistibly crunchy</p></li>
         <li class="list-group-item list-group-item-success"><strong> <span className="textApp">Potato Skins ... $8</span></strong>
-        <br></br><p className="textAppDescription">Crispy potato halves loaded with cheese, bacon, and sour cream. </p>
+        <br></br><p className="textAppDescription">Crispy potato halves loaded with cheese, bacon, and sour cream </p>
         </li>
         <li class="list-group-item list-group-item-success"><strong> <span className="textApp">Chicken Wings ... $10</span></strong>
         <br></br><p className="textAppDescription">BBQ, Buffalo, Mild, Teriyaki (Boneless ~or~ Bone-in)</p>
         </li>
         <li class="list-group-item list-group-item-success"><strong> <span className="textApp">Irish Nachos ... $12</span></strong>
-        <br></br><p className="textAppDescription">Sliced potatoes topped with melted cheese, 	jalapeños, and sour cream. </p>
+        <br></br><p className="textAppDescription">Sliced potatoes topped with melted cheese, 	jalapeños, and sour cream </p>
         </li>
         <li class="list-group-item list-group-item-success"><strong> <span className="textApp">The Four Leaf Clover ...$22</span></strong>
         <br></br><p className="textAppDescription">Mix any of 4 appetizers</p>
@@ -105,7 +105,7 @@ export default function Menu() {
     </div>
     <div class="carousel-item">
       <img className="imgMenu" src={require('../images/The-classic-comfort.jpg')}  class="d-block w-100" height={450} alt="The Classic Comfort"></img>
-      <figcaption class="figure-caption text-end" className="imgCap">The CLassic Comfort</figcaption>
+      <figcaption class="figure-caption text-end" className="imgCap">The Classic Comfort</figcaption>
     </div>
     <div class="carousel-item">
       <img className="imgMenu" src={require('../images/The-Irish-tradition.jpg')}  class="d-block w-100" height={450} alt="The Irish Tradition"></img>
@@ -146,7 +146,7 @@ export default function Menu() {
         <br></br><p className="textAppDescription">Grilled flour tortillas stuffed with seasoned chicken, melted cheese, and served with salsa and sour cream</p>
         </li>
         <li class="list-group-item list-group-item-success"><strong> <span className="textApp">Personal Pizza … $12.50</span></strong>
-        <br></br><p>A perfectly portioned pizza with your choice of toppings, baked to golden, cheesy perfection</p></li>
+        <br></br><p className="textAppDescription">A perfectly portioned pizza with your choice of toppings, baked to golden, cheesy perfection</p></li>
         <li class="list-group-item list-group-item-success"><strong> <span className="textApp">The Liquid Gold Stew … $16</span></strong>
         <br></br><p className="textAppDescription">Slow-cooked beef with root vegetables, all simmered in a rich Guinness broth for deep, comforting flavor</p>
         </li>
@@ -170,6 +170,7 @@ export default function Menu() {
         <br></br>
   <h1 class="list-group-item list-group-item-success rounded d-inline-block"><span className="textHeaders">Desserts</span></h1>
   <br></br>
+  <br></br>
       <div class="row">
     <div class="col-6">
 
@@ -189,7 +190,7 @@ export default function Menu() {
     </div>
     <div class="carousel-item">
       <img src={require('../images/Apple-tart.jpg')}  class="d-block w-100" height={450} alt="Apple Tart"></img>
-      <figcaption class="figure-caption text-end" className="imgCap">Apple Tart</figcaption>
+      <figcaption class="figure-caption text-end" className="imgCap">Irish Apple Tart</figcaption>
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDessert" data-bs-slide="prev">
