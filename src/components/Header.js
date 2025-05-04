@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Header() {
 
@@ -19,19 +20,19 @@ return (
         </a>
         <ul class="nav justify-content-end">
   <li class="nav-item">
-    <a class="nav-link active" aria-current="page" href="/About">About Us</a>
+    <a class="nav-link active" aria-current="page" href="/About" component={Link} to='/About' value="About">About Us</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="/Menu">Food Menu</a>
+    <a class="nav-link"  component={Link} to='/Menu' value="Menu" href="/Menu">Food Menu</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="/Drinks">Drinks Menu</a>
+    <a class="nav-link" component={Link} to='/Drinks' value="Drinks" href="/Drinks">Drinks Menu</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="MeetUs">Staff Bios</a>
+    <a class="nav-link" component={Link} to='/MeetUs' value="MeetUs" href="MeetUs">Staff Bios</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="Contact">Contact Us</a>
+    <a class="nav-link" component={Link} to='/Contact' value="Contact" href="Contact">Contact Us</a>
   </li>
 </ul>
   </div>
