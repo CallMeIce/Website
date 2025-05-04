@@ -90,7 +90,7 @@ export default function Contact() {
 <br></br>
 <br></br>
   <div>
-  <iframe width="400" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" 
+  <iframe title="Maps" width="400" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" 
             src="https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=en&amp;q=15%20E%207th%20Street,%20New%20York,%20NY,%2010003+(Pub)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
                 <a href="https://www.gps.ie/collections/personal-trackers/">gps trackers</a></iframe>
 
