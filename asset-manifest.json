@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Website/static/css/main.58544b36.css",
-    "main.js": "/Website/static/js/main.158b0b72.js",
+    "main.js": "/Website/static/js/main.89eae56f.js",
     "static/media/guinness.png": "/Website/static/media/guinness.0f9cbf87c2f56feaa99e.png",
     "static/media/4-leaf-clover.jpg": "/Website/static/media/4-leaf-clover.e3cecf48728c5dbe5b44.jpg",
     "static/media/cheers.gif": "/Website/static/media/cheers.302ec0f88845e914c8d1.gif",
@@ -42,10 +42,10 @@
     "static/media/cheesecake.webp": "/Website/static/media/cheesecake.bc6451a45c2ef050fc5b.webp",
     "index.html": "/Website/index.html",
     "main.58544b36.css.map": "/Website/static/css/main.58544b36.css.map",
-    "main.158b0b72.js.map": "/Website/static/js/main.158b0b72.js.map"
+    "main.89eae56f.js.map": "/Website/static/js/main.89eae56f.js.map"
   },
   "entrypoints": [
     "static/css/main.58544b36.css",
-    "static/js/main.158b0b72.js"
+    "static/js/main.89eae56f.js"
   ]
 }
