@@ -17,17 +17,15 @@ export default function About() {
 return (
 <div className="container">
     <div>
-        <div className="aboutMsg"> 
-            <p className="textHours" class="list-group-item list-group-item-success rounded"> Located near the East Village.
-            Pub is a well known pub where you can relax, unwind, and enjoy making some
-            new memories! </p>
-            </div>  
-             <br></br>    
-             <br></br>    
-             <br></br>    
-             <br></br>    
+        <br></br>
+        <br></br>
+        <div > 
+            <p  class="list-group-item list-group-item-success rounded"> <span className="textHours"> Located near the East Village.
+            Pub is a well-known pub where you can relax, unwind, and enjoy making some
+            new memories!</span> </p>
+            </div>   
      </div>
-     <br></br>
+        <br></br>
         <br></br>
      <div >
         <span>
@@ -36,13 +34,16 @@ return (
             </div>
             <br></br>
             <div>
-                <h3 class="list-group-item list-group-item-success rounded"> <span className="textHours" >Laughter, Memories, and Good Company</span></h3>
+                <h3 class="list-group-item list-group-item-success rounded"> <span className="textHours" >Laughter, Memories, and Good Company!</span></h3>
             </div>
             <br></br>
             <div>
             <img  src={require('../images/Logo.jpg')} class="rounded-3" alt="Logo"></img>
             
             </div>
+            <br></br>
+            <br></br>
+            <h3 class="list-group-item list-group-item-success rounded d-inline-block"> <span className="textHours">Interested in renting out Pub for an event or gathering? <a href="/Contact">Contact us</a> for more information!</span></h3>
             <br></br>
             <br></br>
 </div>
