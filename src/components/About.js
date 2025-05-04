@@ -36,8 +36,15 @@ return (
             </div>
             <br></br>
             <div>
-
+                <h3 class="list-group-item list-group-item-success rounded"> <span className="textHours" >Laughter, Memories, and Good Company</span></h3>
             </div>
+            <br></br>
+            <div>
+            <img  src={require('../images/Logo.jpg')} class="rounded-3" alt="Logo"></img>
+            
+            </div>
+            <br></br>
+            <br></br>
 </div>
 
 
