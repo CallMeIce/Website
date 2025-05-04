@@ -83,7 +83,7 @@ export default function MeetUs() {
       <div class="carousel-caption d-none d-md-block list-group-item-success">
         <h3 className="textMeet">Sebastian</h3>
         <h5 className="textMeet">Bartender</h5>
-        <p className="textMeet">with years spent perfecting my craft, traveling across the world and acquainting myself with 
+        <p className="textMeet">With years spent perfecting my craft, traveling across the world and acquainting myself with 
           the art of a fine drink. The Pub allows for my expertise to shine in an environment filled
            with laughs, joy, and a good time for a drink on any given day. 
         </p>
