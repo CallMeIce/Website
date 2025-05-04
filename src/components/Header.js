@@ -29,10 +29,10 @@ return (
     <a class="nav-link" component={Link} to='/Drinks' value="Drinks" href="/Drinks">Drinks Menu</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" component={Link} to='/MeetUs' value="MeetUs" href="MeetUs">Staff Bios</a>
+    <a class="nav-link" component={Link} to='/MeetUs' value="MeetUs" href="/MeetUs">Staff Bios</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" component={Link} to='/Contact' value="Contact" href="Contact">Contact Us</a>
+    <a class="nav-link" component={Link} to='/Contact' value="Contact" href="/Contact">Contact Us</a>
   </li>
 </ul>
   </div>
