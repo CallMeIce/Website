@@ -29,8 +29,12 @@ export default function MeetUs() {
       <br></br>
       <br></br>
       <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
       <div class="carousel-caption d-none d-md-block list-group-item-success">
-        <h5 className="textMeet">Matt</h5>
+        <h3 className="textMeet">Matt</h3>
+        <h5 className="textMeet" >Owner</h5>
         <p className="textMeet">With a deep Irish heritage, Matt has a love and passion for Irish culture and serving the community.
             You can find him behind the bar pouring a proper pint of Guinness</p>
       </div>
@@ -49,8 +53,12 @@ export default function MeetUs() {
       <br></br>
       <br></br>
       <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
       <div class="carousel-caption d-none d-md-block list-group-item-success">
-        <h5 className="textMeet">Abdul</h5>
+        <h3 className="textMeet">Abdul</h3>
+        <h5 className="textMeet">Host</h5>
         <p className="textMeet">Abdul Rashedy takes the helm of Pub, blending bold expertise with warm hospitality. 
           With his signature tough love, he welcomes guests to a lively space filled with rich stews, perfectly
            poured pints, and hearty laughter, ensuring every dish and experience captures the soul of Ireland</p>
@@ -70,8 +78,11 @@ export default function MeetUs() {
       <br></br>
       <br></br>
       <br></br>
+      <br></br>
+      <br></br>
       <div class="carousel-caption d-none d-md-block list-group-item-success">
-        <h5 className="textMeet">Sebastion</h5>
+        <h3 className="textMeet">Sebastian</h3>
+        <h5 className="textMeet">Bartender</h5>
         <p className="textMeet">with years spent perfecting my craft, traveling across the world and acquainting myself with 
           the art of a fine drink. The Pub allows for my expertise to shine in an environment filled
            with laughs, joy, and a good time for a drink on any given day. 
@@ -89,8 +100,12 @@ export default function MeetUs() {
       <br></br>
       <br></br>
       <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
       <div class="carousel-caption d-none d-md-block list-group-item-success" >
-        <h5 className="textMeet">Ryan</h5>
+        <h3 className="textMeet">Ryan</h3>
+        <h5 className="textMeet">Server</h5>
         <h6 className="textMeet">Serving with a smile and recommending his favorite drinks and dishes, Ryan
           helps to keep Pub a pleasant experience.
         </h6>
@@ -106,8 +121,12 @@ export default function MeetUs() {
       <br></br>
       <br></br>
       <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
       <div class="carousel-caption d-none d-md-block list-group-item-success">
-        <h5 className="textMeet">Isaak</h5>
+        <h3 className="textMeet">Isaak</h3>
+        <h5 className="textMeet">Cook</h5>
         <h6 className="textMeet">With years of flipping patties, it was time for a change. Working at Pub exposed me to make new creations
           rather than just making a Krabby Patty everyday.
         </h6>
