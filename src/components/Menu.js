@@ -14,31 +14,31 @@ export default function Menu() {
     <div id="carouselExample" class="carousel slide" >
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img className="imgMenu" src={require('../images/mozz-sticks.jpg')} class="d-block w-100" alt="Mozzarella Sticks"></img>
+      <img className="imgMenu" src={require('../images/mozz-sticks.jpg')} class="d-block w-100" height={450} alt="Mozzarella Sticks"></img>
       <figcaption  class="figure-caption text-end" className="imgCap">Mozzarella Sticks</figcaption>
     </div>
     <div class="carousel-item">
-      <img className="imgMenu" src={require('../images/onion-rings.jpg')}   class="d-block w-100" alt="Onion Rings"></img>
+      <img className="imgMenu" src={require('../images/onion-rings.jpg')}   class="d-block w-100" height={450} alt="Onion Rings"></img>
       <figcaption class="figure-caption text-end" className="imgCap">Onion Rings</figcaption>
     </div>
     <div class="carousel-item">
-      <img className="imgMenu" src={require('../images/french-fry.jpg')}  class="d-block w-100" alt="French Fries"></img>
+      <img className="imgMenu" src={require('../images/french-fry.jpg')}  class="d-block w-100" height={450} alt="French Fries"></img>
       <figcaption class="figure-caption text-end" className="imgCap">French Fries</figcaption>
     </div>
     <div class="carousel-item">
-      <img className="imgMenu" src={require('../images/chicken-wings.jpg')}  class="d-block w-100" alt="Chicken Wings"></img>
+      <img className="imgMenu" src={require('../images/chicken-wings.jpg')}  class="d-block w-100" height={450} alt="Chicken Wings"></img>
       <figcaption class="figure-caption text-end" className="imgCap">Chicken Wings</figcaption>
     </div>
     <div class="carousel-item">
-      <img className="imgMenu" src={require('../images/Loaded_Potatoskins.jpg')}  class="d-block w-100" alt="Loaded Potato Skins"></img>
+      <img className="imgMenu" src={require('../images/Loaded_Potatoskins.jpg')}  class="d-block w-100" height={450} alt="Loaded Potato Skins"></img>
       <figcaption class="figure-caption text-end" className="imgCap">Potato Skins</figcaption>
     </div>
     <div class="carousel-item">
-      <img className="imgMenu" src={require('../images/irish-nachos.jpg')} class="d-block w-100" alt="Irish Nachos"></img>
+      <img className="imgMenu" src={require('../images/irish-nachos.jpg')} class="d-block w-100" height={450} alt="Irish Nachos"></img>
       <figcaption class="figure-caption text-end" className="imgCap">Irish Nachos</figcaption>
     </div>
     <div class="carousel-item">
-      <img className="imgMenu" src={require('../images/4-leaf-clover.jpg')} class="d-block w-100" alt="4 Leaf Clover"></img>
+      <img className="imgMenu" src={require('../images/4-leaf-clover.jpg')} class="d-block w-100" height={450} alt="4 Leaf Clover"></img>
       <figcaption class="figure-caption text-end" className="imgCap">Four Leaf Clover</figcaption>
     </div>
   </div>
@@ -92,31 +92,31 @@ export default function Menu() {
     <div id="carouselMenu" class="carousel slide" >
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img className="imgMenu" src={require('../images/Chicken-quesadilla.jpg')} class="d-block w-100" alt="Chicken Quesadillas"></img>
+      <img className="imgMenu" src={require('../images/Chicken-quesadilla.jpg')} class="d-block w-100" height={450} alt="Chicken Quesadillas"></img>
       <figcaption  class="figure-caption text-end" className="imgCap">Chicken Quesadillas</figcaption>
     </div>
     <div class="carousel-item">
-      <img className="imgMenu" src={require('../images/cheese pizza.jpg')}   class="d-block w-100" alt="Personal Pizza"></img>
+      <img className="imgMenu" src={require('../images/cheese pizza.jpg')}   class="d-block w-100" height={450} alt="Personal Pizza"></img>
       <figcaption class="figure-caption text-end" className="imgCap">Personal Pizza</figcaption>
     </div>
     <div class="carousel-item">
-      <img className="imgMenu" src={require('../images/guinness-beef-stew.jpg')}  class="d-block w-100" alt="The Liquid Gold Stew"></img>
+      <img className="imgMenu" src={require('../images/guinness-beef-stew.jpg')}  class="d-block w-100" height={450} alt="The Liquid Gold Stew"></img>
       <figcaption class="figure-caption text-end" className="imgCap">The Liquid Gold Stew</figcaption>
     </div>
     <div class="carousel-item">
-      <img className="imgMenu" src={require('../images/The-classic-comfort.jpg')}  class="d-block w-100" alt="The Classic Comfort"></img>
+      <img className="imgMenu" src={require('../images/The-classic-comfort.jpg')}  class="d-block w-100" height={450} alt="The Classic Comfort"></img>
       <figcaption class="figure-caption text-end" className="imgCap">The CLassic Comfort</figcaption>
     </div>
     <div class="carousel-item">
-      <img className="imgMenu" src={require('../images/The-Irish-tradition.jpg')}  class="d-block w-100" alt="The Irish Tradition"></img>
+      <img className="imgMenu" src={require('../images/The-Irish-tradition.jpg')}  class="d-block w-100" height={450} alt="The Irish Tradition"></img>
       <figcaption class="figure-caption text-end" className="imgCap">The Irish Tradition</figcaption>
     </div>
     <div class="carousel-item">
-      <img className="imgMenu" src={require('../images/irish-potato-pancake.jpg')} class="d-block w-100" alt="The Potato Pancake Surprise"></img>
+      <img className="imgMenu" src={require('../images/irish-potato-pancake.jpg')} class="d-block w-100" height={450} alt="The Potato Pancake Surprise"></img>
       <figcaption class="figure-caption text-end" className="imgCap">The Potato Pancake Surprise</figcaption>
     </div>
     <div class="carousel-item">
-      <img className="imgMenu" src={require('../images/The-Lamb-King.jpg')} class="d-block w-100" alt="The Lamb King"></img>
+      <img className="imgMenu" src={require('../images/The-Lamb-King.jpg')} class="d-block w-100" height={450} alt="The Lamb King"></img>
       <figcaption class="figure-caption text-end" className="imgCap">The Lamb King</figcaption>
     </div>
   </div>
@@ -176,19 +176,19 @@ export default function Menu() {
     <div id="carouselExampleDessert" class="carousel slide" >
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src={require('../images/cheesecake.webp')} class="d-inline-block w-100" alt="Bailey's Cheesecake"></img>
+      <img src={require('../images/cheesecake.webp')} class="d-inline-block w-100" height={450} alt="Bailey's Cheesecake"></img>
       <figcaption class="figure-caption text-end" className="imgCap">Bailey's Cheesecake</figcaption>
     </div>
     <div class="carousel-item">
-      <img  src={require('../images/Guinness-Chocolate-Cake.jpg')}   class="d-inline-block w-100" alt="Guinness Chocolate Cake"></img>
+      <img  src={require('../images/Guinness-Chocolate-Cake.jpg')}   class="d-inline-block w-100" height={450} alt="Guinness Chocolate Cake"></img>
       <figcaption class="figure-caption text-end" className="imgCap">Guinness Chocolate Cake</figcaption>
     </div>
     <div class="carousel-item">
-      <img src={require('../images/Sticky-Toffee-Pudding.jpg')}  class="d-block w-100" alt="Sticky Toffee Pudding"></img>
+      <img src={require('../images/Sticky-Toffee-Pudding.jpg')}  class="d-block w-100" height={450} alt="Sticky Toffee Pudding"></img>
       <figcaption class="figure-caption text-end" className="imgCap">Sticky Toffee Pudding</figcaption>
     </div>
     <div class="carousel-item">
-      <img src={require('../images/Apple-tart.jpg')}  class="d-block w-100" alt="Apple Tart"></img>
+      <img src={require('../images/Apple-tart.jpg')}  class="d-block w-100" height={450} alt="Apple Tart"></img>
       <figcaption class="figure-caption text-end" className="imgCap">Apple Tart</figcaption>
     </div>
   </div>
